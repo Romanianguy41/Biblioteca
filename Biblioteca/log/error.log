@@ -1,0 +1,10 @@
+[27-May-2024 16:36:31 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'nom' in 'field list' in C:\xampp\htdocs\biblioteca\processaSignin.php:81
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\processaSignin.php(81): mysqli->prepare('INSERT INTO ute...')
+#1 {main}
+  thrown in C:\xampp\htdocs\biblioteca\processaSignin.php on line 81
+[27-May-2024 16:37:54 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'idUtete' in 'field list' in C:\xampp\htdocs\biblioteca\processaLogin.php:19
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\processaLogin.php(19): mysqli->prepare('SELECT idUtete,...')
+#1 {main}
+  thrown in C:\xampp\htdocs\biblioteca\processaLogin.php on line 19

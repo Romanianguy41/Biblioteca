@@ -1,0 +1,27 @@
+body {
+    background-color: #1C1C1C;
+    color: white;
+    font-family: Helvetica;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.container {
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+a{
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        padding: 0 10px;
+    }
+}

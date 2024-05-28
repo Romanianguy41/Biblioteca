@@ -1,0 +1,114 @@
+a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Helvetica;
+}
+
+header {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-weight: bold;
+    font-size: 24px;
+    white-space: nowrap;
+}
+
+header nav {
+    margin-left: auto; 
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: #C3C3C3;
+}
+
+.search-box {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #000000;
+    padding: 10px;
+    z-index: 1001;
+    right: 40px;
+}
+
+.search-box form {
+    display: flex;
+    align-items: center;
+}
+
+.search-box form input {
+    flex: 1;
+    margin-right: 10px;
+    padding: 5px;
+    border: 1px solid #fff;
+    color: #000;
+}
+
+.search-box form button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.account-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #000000;
+    padding: 10px;
+    display: none;
+    text-align: right;
+    z-index: 1001;
+    right: 40px;
+}
+
+.search-icon {
+    cursor: pointer;
+}
+
+.account-icon {
+    cursor: pointer;
+    margin-right: 40px;
+}
+
+section {
+    margin-top: 60px;
+}
+
+.search-icon img,
+.account-icon img {
+    width: 24px;
+    height: 24px;
+}
+.element{
+    margin-top: 10px;
+}
